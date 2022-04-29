@@ -9,9 +9,10 @@ import ast
 import json
 from odoo.tools.safe_eval import safe_eval
 import re
-from datetime import date, datetime, time
+from datetime import date, datetime, time#, timedelta
+#import datetime
 from dateutil import relativedelta
-from random import randrange
+#from random import randrange
 
 class KpiKpi(models.Model):
     _name = "kpi.kpi"
@@ -70,8 +71,8 @@ class KpiKpi(models.Model):
                 record.computed_date = record.value_last_update
 
     def _cron_vals(self):
-        tomorrow = datetime.datetime.now() + timedelta(days=1)
-        fecha = str(tomorrow.year) + '-' + str(tomorrow.month) + '-' + str(tomorrow.day) + ' 01:' + str(randrange(60)) + ':00'
+        #tomorrow = datetime.datetime.now() + timedelta(days=1)
+        #fecha = str(tomorrow.year) + '-' + str(tomorrow.month) + '-' + str(tomorrow.day) + ' 01:' + str(randrange(60)) + ':00'
         return {
             "name": self.name,
             "model_id": self.env.ref("kpi_dashboard.model_kpi_kpi").id,
@@ -79,9 +80,9 @@ class KpiKpi(models.Model):
             "interval_type": "days",
             "state": "code",
             "code": "model.browse(%s).compute()" % self.id,
-            #"active": self.env.eval("True"),
-            "nextcall": fecha,
-            "numbercall": -1,
+            "active": True,
+            #"nextcall": fecha,
+            #"numbercall": -1,
         }
 
     def compute(self):
@@ -153,7 +154,7 @@ class KpiKpi(models.Model):
         }
 
     def _forbidden_code(self):
-        return ["commit", "rollback", "getattr", "execute"]
+        return ["commit", "rollback", "getattr"]
 
     def _compute_value_code(self):
         forbidden = self._forbidden_code()
