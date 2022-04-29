@@ -1,0 +1,31 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* kpi_dashboard_altair
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-29 09:10+0000\n"
+"PO-Revision-Date: 2022-04-29 09:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: kpi_dashboard_altair
+#: model:ir.model.fields.selection,name:kpi_dashboard_altair.selection__kpi_kpi__widget__altair
+msgid "Altair"
+msgstr ""
+
+#. module: kpi_dashboard_altair
+#: model:ir.model,name:kpi_dashboard_altair.model_kpi_kpi
+msgid "Kpi Kpi"
+msgstr ""
+
+#. module: kpi_dashboard_altair
+#: model:ir.model.fields,field_description:kpi_dashboard_altair.field_kpi_kpi__widget
+msgid "Widget"
+msgstr ""
