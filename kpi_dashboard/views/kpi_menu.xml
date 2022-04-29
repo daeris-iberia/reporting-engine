@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020 Creu Blanca
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+    <!-- CONFIGURATION -->
+    <menuitem id="menu_configuration_kpi_dashboards"
+              name="KPI Dashboards"
+              parent="base.menu_reporting_config"
+              groups="kpi_dashboard.group_kpi_dashboard_manager"
+              sequence="10"/>
+
+    <!-- CONFIGURATION -->
+    <menuitem id="menu_configuration_kpi_kpi"
+              name="KPI"
+              parent="base.menu_reporting_config"
+              groups="base.group_no_one"
+              sequence="20"/>
+
+    <!-- DASHBOARDS -->
+    <menuitem id="menu_kpi_dashboards"
+              name="Cuadros de Mando KPI"
+              parent="base.menu_board_root"
+              sequence="10"/>
+</odoo>

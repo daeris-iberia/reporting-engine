@@ -1,0 +1,662 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* kpi_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-29 09:09+0000\n"
+"PO-Revision-Date: 2022-04-29 11:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_kpi.py:0
+#, python-format
+msgid " or "
+msgstr " o "
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/js/dashboard_controller.js:0
+#, python-format
+msgid "'%s' added to dashboard"
+msgstr "'%s' añadido al cuadro de mando"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__action_ids
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__action
+msgid "Action"
+msgstr "Acción"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Vista de acción de ventana"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,help:kpi_dashboard.field_kpi_kpi__action_ids
+msgid "Actions that can be opened from the KPI"
+msgstr "Acciones que pueden ser ejecutadas desde el KPI"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__active
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__args
+msgid "Args"
+msgstr "Argumentos"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__background_color
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_item_config_form_view
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_menu_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__code
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__computation_method__code
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Code"
+msgstr "Código"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__color
+msgid "Color"
+msgstr "Color"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__column
+msgid "Column"
+msgstr "Columna"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__computation_method
+msgid "Computation Method"
+msgstr "Método de cálculo"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__compute_on_fly
+msgid "Compute On Fly"
+msgstr "Calcular al Vuelo"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__compute_on_fly_refresh
+msgid "Compute On Fly Refresh"
+msgstr "Refresco del Cálculo al Vuelo"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Compute now"
+msgstr "Calcular ahora"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__computed_date
+msgid "Computed Date"
+msgstr "Fecha Calculada"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__computed_value
+msgid "Computed Value"
+msgstr "Valor Calculado"
+
+#. module: kpi_dashboard
+#: model:ir.ui.menu,name:kpi_dashboard.kpi_dashboard_menu
+msgid "Configure Dashboard"
+msgstr "Configurar Cuadro de Mando"
+
+#. module: kpi_dashboard
+#: model:ir.ui.menu,name:kpi_dashboard.kpi_kpi_menu
+msgid "Configure Kpi"
+msgstr "Configurar Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__context
+msgid "Context"
+msgstr "Contexto"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/js/dashboard_controller.js:0
+#, python-format
+msgid "Could not add KPI dashboard to dashboard"
+msgstr "No se pudo añadir el cuadro de mando KPI al cuadro de mando"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__widget__counter
+msgid "Counter"
+msgstr "Contador"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_kpi_dashboard_menu
+msgid "Create a Menu for a Dashboard"
+msgstr "Crear un Menú para el Cuadro de Mando"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__create_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__create_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__create_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__create_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__create_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__create_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__create_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__create_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__create_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__create_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__cron_id
+msgid "Cron"
+msgstr "Cron"
+
+#. module: kpi_dashboard
+#: model:ir.module.category,name:kpi_dashboard.kpi_dashboards
+#: model:ir.ui.menu,name:kpi_dashboard.menu_kpi_dashboards
+msgid "Cuadros de Mando KPI"
+msgstr "Cuadros de Mando KPI"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/js/dashboard_view.js:0
+#: model:ir.model,name:kpi_dashboard.model_kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__dashboard_id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__dashboard_id
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__ir_actions_act_window_view__view_mode__dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__ir_ui_view__type__dashboard
+#, python-format
+msgid "Dashboard"
+msgstr "Cuadro de Mando"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__dashboard_item_ids
+msgid "Dashboard Item"
+msgstr "Elemento del Cuadro de Mando"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_kpi_dashboard_item
+msgid "Dashboard Items"
+msgstr "Elementos del Cuadro de Mando"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__display_name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__display_name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__display_name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__display_name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__display_name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__end_column
+msgid "End Column"
+msgstr "Última Columna"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__end_row
+msgid "End Row"
+msgstr "Última Fila"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Enter Python code here."
+msgstr "Introduce el código Python aquí."
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/js/dashboard_controller.js:0
+#, python-format
+msgid "First you must create the Menu"
+msgstr "Primero debes crear el Menú"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__font_color
+msgid "Font Color"
+msgstr "Color de Fuente"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__function
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__computation_method__function
+msgid "Function"
+msgstr "Función"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_menu_form_view
+msgid "Generate"
+msgstr "Generar"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_menu_form_view
+msgid "Generate Menu"
+msgstr "Generar Menú"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Generate cron"
+msgstr "Generar cron"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_form_view
+msgid "Generate menu"
+msgstr "Generar menú"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Go to"
+msgstr "Ir a"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__widget__graph
+msgid "Graph"
+msgstr "Gráfico"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__group_ids
+msgid "Group"
+msgstr "Grupo"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_form_view
+msgid "Groups"
+msgstr "Grupos"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__history_ids
+msgid "History"
+msgstr "Historial"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__id
+msgid "ID"
+msgstr "ID"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__widget__integer
+msgid "Integer"
+msgstr "Entero"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__item_ids
+msgid "Item"
+msgstr "Elemento"
+
+#. module: kpi_dashboard
+#: model:ir.ui.menu,name:kpi_dashboard.menu_configuration_kpi_kpi
+msgid "KPI"
+msgstr "KPI"
+
+#. module: kpi_dashboard
+#: model:ir.ui.menu,name:kpi_dashboard.menu_configuration_kpi_dashboards
+msgid "KPI Dashboards"
+msgstr "Cuadros de Mando KPI"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_kpi_kpi_action
+msgid "KPI action"
+msgstr "Acción KPI"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_kpi_kpi_history
+msgid "KPI history"
+msgstr "Historial KPI"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_form_view
+msgid "KPIs"
+msgstr "KPIs"
+
+#. module: kpi_dashboard
+#: model:ir.actions.act_window,name:kpi_dashboard.kpi_kpi_act_window
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__kpi_id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__kpi_id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__kpi_id
+msgid "Kpi"
+msgstr "Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.actions.act_window,name:kpi_dashboard.kpi_dashboard_act_window
+msgid "Kpi Dashboard"
+msgstr "Cuadro de Mando Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.actions.act_window,name:kpi_dashboard.kpi_dashboard_menu_act_window
+msgid "Kpi Dashboard Menu"
+msgstr "Menú de Cuadro de Mando Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.actions.act_window,name:kpi_dashboard.kpi_kpi_history_act_window
+msgid "Kpi History"
+msgstr "Historial Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_kpi_kpi
+msgid "Kpi Kpi"
+msgstr "Kpi Kpi"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__kwargs
+msgid "Kwargs"
+msgstr "Kwargs"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard____last_update
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item____last_update
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu____last_update
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi____last_update
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action____last_update
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__write_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__write_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__write_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__write_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__write_uid
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__write_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__write_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__write_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__write_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_action__write_date
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Main actions"
+msgstr "Acciones principales"
+
+#. module: kpi_dashboard
+#: model:res.groups,name:kpi_dashboard.group_kpi_dashboard_manager
+msgid "Manage KPI Dashboards"
+msgstr "Administrar Cuadros de Mando KPI"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__margin_x
+msgid "Margin X"
+msgstr "Margen X"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__margin_y
+msgid "Margin Y"
+msgstr "Margen Y"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__menu_id
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_menu__menu_id
+msgid "Menu"
+msgstr "Menú"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__widget__meter
+msgid "Meter"
+msgstr "Medidor"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__modify_color
+msgid "Modify Color"
+msgstr "Modificar Color"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__modify_color_expression
+msgid "Modify Color Expression"
+msgstr "Expresión Modificar Color"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__modify_context
+msgid "Modify Context"
+msgstr "Modificar Contexto"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__modify_context_expression
+msgid "Modify Context Expression"
+msgstr "Expresión Modificar Contexto"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__name
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi__widget__number
+msgid "Number"
+msgstr "Número"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__number_of_columns
+msgid "Number Of Columns"
+msgstr "Número de Columnas"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/js/dashboard_controller.js:0
+#, python-format
+msgid "Please refresh your browser for the changes to take effect."
+msgstr "Por favor vuelve a cargar tu navegador para que los cambios se vean reflejados."
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__prefix
+msgid "Prefix"
+msgstr "Prefijo"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__raw_value
+msgid "Raw Value"
+msgstr "Valor Bruto"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_history_tree_view
+msgid "Raw value"
+msgstr "Valor bruto"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__row
+msgid "Row"
+msgstr "Fila"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_item_config_form_view
+msgid "Save"
+msgstr "Guardar"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,help:kpi_dashboard.field_kpi_dashboard__compute_on_fly_refresh
+msgid "Seconds to refresh on fly elements"
+msgstr "Segundos para refrescar en elementos al vuelo"
+
+#. module: kpi_dashboard
+#. openerp-web
+#: code:addons/kpi_dashboard/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Selection"
+msgstr "Selección"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Show history"
+msgstr "Mostrar historial"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_history_tree_view
+msgid "Show value"
+msgstr "Mostrar valor"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__size_x
+msgid "Size X"
+msgstr "Tamaño X"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__size_y
+msgid "Size Y"
+msgstr "Tamaño Y"
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:0
+#, python-format
+msgid "Size Y of the widget cannot be bigger than 10"
+msgstr "El tamaño Y del widget no puede ser más grande que 10"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__store_history
+msgid "Store History"
+msgstr "Guardar Historial"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__store_history_interval
+msgid "Store History Interval"
+msgstr "Almacenar Intervalo de Historial"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__store_history_interval_number
+msgid "Store History Interval Number"
+msgstr "Almacenar número de intervalo de historial"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__suffix
+msgid "Suffix"
+msgstr "Sufijo"
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_kpi.py:0
+#, python-format
+msgid "The code cannot contain the following terms: %s."
+msgstr "El código no puede contener los siguientes términos: %s."
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__value
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__value
+msgid "Value"
+msgstr "Valor"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__value_last_update
+msgid "Value Last Update"
+msgstr "Última Modificación del Valor"
+
+#. module: kpi_dashboard
+#: model:ir.model,name:kpi_dashboard.model_ir_ui_view
+msgid "View"
+msgstr "Ver"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:kpi_dashboard.field_ir_ui_view__type
+msgid "View Type"
+msgstr "Tipo de vista"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__widget
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi_history__widget
+msgid "Widget"
+msgstr "Widget"
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:0
+#, python-format
+msgid "Widget %s is bigger than expected"
+msgstr "El widget %s es mayor de lo esperado"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__widget_dimension_x
+msgid "Widget Dimension X"
+msgstr "Dimensión del Widget X"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__widget_dimension_y
+msgid "Widget Dimension Y"
+msgstr "Dimensión del Widget Y"
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_form_view
+msgid "Widget configuration"
+msgstr "Configuración del widget"
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:0
+#, python-format
+msgid "Widgets cannot be crossed by other widgets"
+msgstr "Los widgets no se pueden cruzar con otros widgets"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__width
+msgid "Width"
+msgstr "Ancho"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi_action__action__ir_actions_act_url
+msgid "ir.actions.act_url"
+msgstr "ir.actions.act_url"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi_action__action__ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr "ir.actions.act_window"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi_action__action__ir_actions_client
+msgid "ir.actions.client"
+msgstr "ir.actions.client"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi_action__action__ir_actions_report
+msgid "ir.actions.report"
+msgstr "ir.actions.report"
+
+#. module: kpi_dashboard
+#: model:ir.model.fields.selection,name:kpi_dashboard.selection__kpi_kpi_action__action__ir_actions_server
+msgid "ir.actions.server"
+msgstr "ir.actions.server"
