@@ -6,11 +6,11 @@ from odoo.tools.safe_eval import json
 from odoo.tools.safe_eval import datetime
 logger = logging.getLogger(__name__)
 try:
-    from odoo.tools.safe_eval import pandas
-    from odoo.tools.safe_eval import altair
+    from odoo.tools.safe_eval import wrap_module
+    altair = wrap_module(__import__('altair'),['Chart', 'SortField', 'datum', 'Y', 'X', 'Tooltip', 'topo_feature', 'Size', 'value', 'Color','condition','Axis'])
+    pandas = wrap_module(__import__('pandas'), ['DataFrame'])
 except ImportError:
     logger.debug('Cannot import genshi.core')
-
 
 class KpiKpi(models.Model):
 
